@@ -1,9 +1,5 @@
-  {
-  "type": "FeatureCollection",
-  "features": [
+{
     {
-      "type": "Feature",
-      "properties": {
 	"id": "OW/95/2018",
       	"lodgement_date": "9/10/2010, 10:00 AM",
 	"decision_date": "9/10/2010, 10:00 AM",
@@ -21,19 +17,11 @@
 	"status": "Pending Information Response",
 	"decision_status": "Undecided",
 	"land_use": "COM",
-	"assessment_category": "Impact Assessable",	 
-},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.76611328125,
-          -29.878755346037963
-        ]
-      }
+	"assessment_category": "Impact Assessable",
+	"lon": 147.76611328125,
+	"lat":-29.878755346037963
     },
     {
-      "type": "Feature",
-      "properties": {
         "id": "OW/96/2018",
       	"lodgement_date": "9/10/2017, 10:00 AM",
 	"decision_date": "9/10/2018, 10:00 AM",
@@ -51,15 +39,8 @@
 	"status": "Pending Information Response",
 	"decision_status": "Undecided",
 	"land_use": "COM",
-	"assessment_category": "Impact Assessable",	
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.77685546874997,
-          -30.183121842195504
-        ]
-      }
+	"assessment_category": "Impact Assessable",
+	"lon": 148.77685546874997,
+	"lat":-30.183121842195504
     }
-  ]
-  }
+}
