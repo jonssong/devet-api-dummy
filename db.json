@@ -1,14 +1,65 @@
-{
-  "posts": [
-    { "uuuid": 1, "title": "Post 1" },
-    { "uuuid": 2, "title": "Post 2" },
-    { "uuuid": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "apaid": 1, "body": "some comment", "postId": 1 },
-    { "apaid": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+	"id": "OW/95/2018",
+      	"lodgement_date": "9/10/2010, 10:00 AM",
+	"decision_date": "9/10/2010, 10:00 AM",
+	"property_key": "381090",
+	"property_lotplan": "RP126336/346",
+	"property_street_no": "15",
+	"property_street_name": "Academy Street",
+	"property_suburb": "BROWNS PLAINS",
+	"property_post_code": "4118",
+	"property_division": "08",
+	"property_zone": "LD RES - Suburban",
+	"development_type_code": "BWAP",
+	"description": "Dwelling House Extension",
+	"risksmart": true,
+	"status": "Pending Information Response",
+	"decision_status": "Undecided",
+	"land_use": "COM",
+	"assessment_category": "Impact Assessable",	 
+},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.76611328125,
+          -29.878755346037963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OW/96/2018",
+      	"lodgement_date": "9/10/2017, 10:00 AM",
+	"decision_date": "9/10/2018, 10:00 AM",
+	"property_key": "381090",
+	"property_lotplan": "RP126336/346",
+	"property_street_no": "15",
+	"property_street_name": "Wolf Street",
+	"property_suburb": "BROWNS PLAINS",
+	"property_post_code": "4118",
+	"property_division": "08",
+	"property_zone": "LD RES - Suburban",
+	"development_type_code": "BWAP",
+	"description": "Dwelling House Extension",
+	"risksmart": false,
+	"status": "Pending Information Response",
+	"decision_status": "Undecided",
+	"land_use": "COM",
+	"assessment_category": "Impact Assessable",	
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.77685546874997,
+          -30.183121842195504
+        ]
+      }
+    }
+  ]
   }
-}
